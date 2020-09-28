@@ -1,0 +1,35 @@
+#container{
+
+    width:100%;
+    overflow:auto;
+}
+table.gridtable {
+    margin:0 auto;
+    width:95%;
+    overflow:auto;
+    font-family: helvetica,arial,sans-serif;
+    font-size:14px;
+    color:#333333;
+    border-width: 3px;
+    padding: 8px;
+    border-style: outset;
+    border-color:black;
+    border-collapse: collapse;
+    text-align: center;
+}
+table.gridtable th {
+    font-size:25px;
+    border-width: 3px;
+    padding: 0;
+    border-style: outset;
+    border-color:black;
+    background-color: grey;
+    font-palette: white;
+    cursor: pointer;
+}
+table.gridtable td {
+    border-width: 3px;
+    padding: 8px;
+    border-style: outset;
+    border-color:black;
+}
