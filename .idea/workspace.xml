@@ -3,10 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="adb7691e-ab0d-4243-a664-30744b07594e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Galeria.html" beforeDir="false" afterPath="$PROJECT_DIR$/Galeria.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mieszkania.html" beforeDir="false" afterPath="$PROJECT_DIR$/mieszkania.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/temp.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainPage.html" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,7 +28,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/js" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
@@ -79,6 +76,7 @@
       <workItem from="1578577088518" duration="15930000" />
       <workItem from="1578597337653" duration="8170000" />
       <workItem from="1578605899095" duration="468000" />
+      <workItem from="1601307162105" duration="39000" />
     </task>
     <servers />
   </component>
