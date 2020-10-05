@@ -1,7 +1,8 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <title>Title</title>
     <title>Marcin Galas</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -20,71 +21,76 @@
     <script src="js/scriptToMenu.js"></script>
     <script src="js/scriptToAjax.js"></script>
     <link rel="stylesheet" href="css/mainPageStyles.css">
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+        }
+
+        .bg {
+            /* The image used */
+
+
+            /* Full height */
+            height: 100%;
+
+            /* Center and scale the image nicely */
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .item {
+
+        }
+
+    </style>
 </head>
+<body class="item">
 
-<body onload="loadOpis();">
-
-<!--<div id='divElement' style="background: rgba(255,255,255,0.3)"  >-->
+<div class="bg" style="background-image: url('Source/moon.jpg');"></div>
 <div id="divElement">
-        <tr height="100%" >
-            <td height="100%" width="100%" valign="middle" align="center" >
-                <div class="top-box">
-                    <div style="right: 1%;   position: fixed;">
-                        <h2 style="color:  rgba(255,255,255,0.4); font-weight: bold">Marcin Galas </h2>
-                        <h5 style="color:  rgba(255,255,255,0.4); font-weight: bold;">Junior Software Developer</h5>
-                        <h5 style="color:  rgba(255,255,255,0.4); font-weight: bold; margin-top: 0px"`>Mstr student at Jagiellonian University</h5>
-                        <div class="profile-contact" style="bottom: 10%;  position: fixed">
-                            <a href="https://github.com/cinek1"><i class="fa-4x fab fa-linkedin" style="color: rgba(255,255,255,0.4)"></i></a>
-                            <a href="https://github.com/cinek1"><i class="fa-4x fab fa-github-square" style="color: rgba(255,255,255,0.4); padding-left: 20px" ></i></a>
-                            <a href="https://github.com/cinek1"><i class="fa-4x far fa-file" style="color: rgba(255,255,255,0.4); padding-left: 20px" ></i></a>
-                        </div>
+    <tr height="100%" >
+        <td height="100%" width="100%" valign="middle" align="center" >
+            <div class="top-box">
+                <div style="right: 1%;   position: fixed;">
+                    <h2 style="color:  rgba(255,255,255,0.4); font-weight: bold">Marcin Galas </h2>
+                    <h5 style="color:  rgba(255,255,255,0.4); font-weight: bold;">Junior Software Developer</h5>
+                    <h5 style="color:  rgba(255,255,255,0.4); font-weight: bold; margin-top: 0px"`>Mstr student at Jagiellonian University</h5>
+                    <div class="profile-contact" style="bottom: 10%;  position: fixed">
+                        <a href="https://www.linkedin.com/in/marcin-galas-563881188/"><i class="fa-4x fab fa-linkedin" style="color: rgba(255,255,255,0.4)"></i></a>
+                        <a href="https://github.com/cinek1"><i class="fa-4x fab fa-github-square" style="color: rgba(255,255,255,0.4); padding-left: 20px" ></i></a>
+                        <a href="https://github.com/cinek1"><i class="fa-4x far fa-file" style="color: rgba(255,255,255,0.4); padding-left: 20px" ></i></a>
                     </div>
-
                 </div>
-            </td>
-        </tr>
-</div>
 
-
-<!--<div style="background-image: url(Source/moon.jpg); width: 100%; height: 100%" >-->
-<!--    <div class="carousel-inner">-->
-<!--        <div class="carousel-item active" id="3jpg">-->
-<!--            <img class="d-block w-100" src="Source/one.jpg" alt="First slide">-->
-<!--        </div>-->
-
-<!--    </div>-->
-<!--    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">-->
-<!--        <span class="carousel-control-prev-icon" aria-hidden="true"></span>-->
-<!--        <span class="sr-only">Previous</span>-->
-<!--    </a>-->
-<!--    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">-->
-<!--        <span class="carousel-control-next-icon" aria-hidden="true"></span>-->
-<!--        <span class="sr-only">Next</span>-->
-<!--    </a>-->
-    <div>
-    <img src="Source/moon.jpg" class="imsg" />
-    </div>
-
-
-
-
-<div class="fluid-container"  >
-    <div class="parallax-window"   data-parallax="scroll" data-z-index="1" data-image-src="Source/four.jpg"></div>
+            </div>
+        </td>
+    </tr>
 
 </div>
-<div class="fluid-container" >
-    <div class="parallax-window"   data-parallax="scroll" data-z-index="1" data-image-src="Source/five.jpg"></div>
+<div class="bg" style="background-image: url('Source/1.jpg');"></div>
 
-</div>
-<div class="fluid-container" >
-    <div class="parallax-window"   data-parallax="scroll" data-z-index="1" data-image-src="Source/six.jpg"></div>
+<div class="item">
+
 
 </div>
 
 
-<footer style="background: black; height: 100px" style="margin-top: 10px">
-
-</footer>
 </body>
 
+<script>
+    var counter = 1;
+
+    $(window).scroll(function () {
+        if (counter < 15) {
+            if ($(window).scrollTop() >= $(document).height() - $(window).height() - 50
+            ) {
+                const url = "url('Source/" + ++counter + ".jpg')";
+                $('.item').append('<div class="bg" style="background-image:' + url + '"></div>');
+
+            }
+        }
+    })
+
+</script>
 </html>
