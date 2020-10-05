@@ -2,26 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="adb7691e-ab0d-4243-a664-30744b07594e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/13.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Source/13.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/14.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Source/14.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/15.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Source/15.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/16.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/eight.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/eleven.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/five.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/four.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/free.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/logoLNK.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/nine.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/one.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/seven.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/six.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/ten.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/two.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/css/mainPageStyles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/mainPageStyles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss.html" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -100,7 +81,7 @@
       <workItem from="1601831623554" duration="3059000" />
       <workItem from="1601843701238" duration="2290000" />
       <workItem from="1601901413904" duration="8367000" />
-      <workItem from="1601924238588" duration="1005000" />
+      <workItem from="1601924238588" duration="1417000" />
     </task>
     <servers />
   </component>
