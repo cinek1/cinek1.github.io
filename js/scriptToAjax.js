@@ -11,7 +11,6 @@ function createRequest(k) {
 }
 
 function loadOpis() {
-   createRequest('opis.html');
     $(window).trigger('resize.px.parallax');
 
 }

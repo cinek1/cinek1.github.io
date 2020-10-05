@@ -235,3 +235,29 @@ body{
     background-color: #efefef;
     text-align: center;
 }
+#divElement{
+    position: fixed;
+    left: 50%;
+    top: 35%;
+    transform: translate(-50%,-50%);
+    width: 400px;
+    height: 200px;
+    z-index: 100;
+    margin: auto;
+
+}​
+ input.button-add {
+     background-image: url(/Source/logoLNK.png); /* 16px x 16px */
+ }
+
+.transparent {
+    /*background-color: rgba(255,255,255,0.5);*/
+}
+
+.imsg {
+    max-width:100%;
+    height:auto;
+    max-height:100%;
+    object-fit: contain;
+
+}
