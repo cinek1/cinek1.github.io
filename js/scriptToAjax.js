@@ -1,44 +1,12 @@
-var mapPlace = true;
-function createRequest(k) {
-    var myRequest = new XMLHttpRequest();
-    myRequest.open('GET', k);
-    myRequest.onreadystatechange = function () {
-        if (myRequest.readyState === 4) {
-            document.getElementById('contentToRead').innerHTML = myRequest.responseText;
+var counter = 1;
+var pictures = ["winter", "lift", "cosmos"]
+$(window).scroll(function () {
+    if (counter < 15) {
+        if ($(window).scrollTop() >= $(document).height() - $(window).height() - 50
+        ) {
+            const url = "url('Source/" + ++counter + ".jpg')";
+            $('.item').append('<div class="bg" style="background-image:' + url + '"></div>');
+            if (counter === 15) $('.item').append('<footer id="foot" style="text-align: center" > <h3> Pictures from  <a href="https://www.bing.com"> Bing </a> and  <a href="https://www.unplash.com"> Unplash </a>  </h3> </footer>');
         }
-    };
-    myRequest.send();
-}
-
-function loadOpis() {
-    $(window).trigger('resize.px.parallax');
-
-}
-
-function createRequestToPolozenie() {
-    var htmlToplace;
-    if (mapPlace === true) {
-        document.getElementById('location').style.height = "600px";
-        htmlToplace = 'polozenie.html';
-        mapPlace = false;
-        document.getElementById('location').style.display = "block";
-        var myRequest = new XMLHttpRequest();
-        myRequest.open('GET', htmlToplace);
-        myRequest.onreadystatechange = function () {
-            if (myRequest.readyState === 4) {
-                document.getElementById('location').innerHTML = myRequest.responseText;
-            }
-        };
-        myRequest.send();
-        $(window).trigger('resize.px.parallax');
     }
-    else {
-        document.getElementById('location').style.display = "none";
-        document.getElementById('location').innerHTML = "";
-        $(window).trigger('resize.px.parallax');
-        mapPlace = true;
-    }
-
-
-
-}
+})

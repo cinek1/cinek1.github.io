@@ -2,7 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="adb7691e-ab0d-4243-a664-30744b07594e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Source/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/10.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Source/10.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/11.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Source/11.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/12.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Source/12.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/13.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Source/13.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/15.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Source/15.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Source/2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Source/3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Source/4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Source/5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Source/6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Source/7.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/9.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Source/9.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/mainPageStyles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/mainPageStyles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/scriptToAjax.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/scriptToAjax.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,14 +47,14 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Studia\Osiedle" />
-      <recent name="D:\Studia\Osiedle\js" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Studia\Osiedle\js" />
       <recent name="D:\Studia\Osiedle\Source\PREZENTACJA WOLA" />
       <recent name="D:\Studia\untitled" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Studia\Osiedle" />
+      <recent name="D:\Studia\Osiedle\js" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -81,7 +97,10 @@
       <workItem from="1601831623554" duration="3059000" />
       <workItem from="1601843701238" duration="2290000" />
       <workItem from="1601901413904" duration="8367000" />
-      <workItem from="1601924238588" duration="1417000" />
+      <workItem from="1601924238588" duration="1648000" />
+      <workItem from="1601926079136" duration="605000" />
+      <workItem from="1601989464213" duration="874000" />
+      <workItem from="1602070585455" duration="2715000" />
     </task>
     <servers />
   </component>

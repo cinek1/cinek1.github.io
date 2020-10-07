@@ -2,95 +2,30 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
     <title>Marcin Galas</title>
-    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-    <script src="js/parallax.js-1.5.0/parallax.min.js"></script>
-    <script src="https://unpkg.com/react/umd/react.development.js"></script>
-    <script src="https://unpkg.com/react-dom/umd/react-dom.development.js"></script>
-    <script src="https://unpkg.com/babel-standalone/babel.js"></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"  crossorigin="anonymous">
-    <script src="js/scriptToMenu.js"></script>
     <script src="js/scriptToAjax.js"></script>
     <link rel="stylesheet" href="css/mainPageStyles.css">
-    <style>
-        body, html {
-            height: 100%;
-            margin: 0;
-        }
-
-        .bg {
-            /* The image used */
-
-
-            /* Full height */
-            height: 100%;
-
-            /* Center and scale the image nicely */
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: cover;
-        }
-        .item {
-
-        }
-
-    </style>
 </head>
 <body class="item">
-
 <div class="bg" style="background-image: url('Source/moon.jpg');"></div>
 <div id="divElement">
-    <tr height="100%" >
-        <td height="100%" width="100%" valign="middle" align="center" >
-            <div class="top-box">
                 <div style="right: 1%;   position: fixed;">
-                    <h2 style="color:  rgba(255,255,255,0.4); font-weight: bold">Marcin Galas </h2>
-                    <h5 style="color:  rgba(255,255,255,0.4); font-weight: bold;">Junior Software Developer</h5>
-                    <h5 style="color:  rgba(255,255,255,0.4); font-weight: bold; margin-top: 0px"`>Mstr student at Jagiellonian University</h5>
-                    <div class="profile-contact" style="bottom: 10%;  position: fixed">
+                    <h2  class="profileInfo"> Marcin Galas </h2>
+                    <h5 class="profileInfo"> Junior Software Developer</h5>
+                    <h5  class="profileInfo"> MSTr student at Jagiellonian University</h5>
+                    <div style="bottom: 10%;  position: fixed">
                         <a href="https://www.linkedin.com/in/marcin-galas-563881188/"><i class="fa-4x fab fa-linkedin" style="color: rgba(255,255,255,0.4)"></i></a>
                         <a href="https://github.com/cinek1"><i class="fa-4x fab fa-github-square" style="color: rgba(255,255,255,0.4); padding-left: 20px" ></i></a>
-                        <a href="https://github.com/cinek1"><i class="fa-4x far fa-file" style="color: rgba(255,255,255,0.4); padding-left: 20px" ></i></a>
+                        <a href="Source/CV.pdf"><i class="fa-4x far fa-file" style="color: rgba(255,255,255,0.4); padding-left: 20px" ></i></a>
                     </div>
                 </div>
-
-            </div>
-        </td>
-    </tr>
-
 </div>
 <div class="bg" style="background-image: url('Source/1.jpg');"></div>
-
 <div class="item">
-
-
 </div>
-
-
 </body>
-
-<script>
-    var counter = 1;
-
-    $(window).scroll(function () {
-        if (counter < 15) {
-            if ($(window).scrollTop() >= $(document).height() - $(window).height() - 50
-            ) {
-                const url = "url('Source/" + ++counter + ".jpg')";
-                $('.item').append('<div class="bg" style="background-image:' + url + '"></div>');
-
-            }
-        }
-    })
-
-</script>
 </html>
